@@ -49,7 +49,7 @@ const fetchPage = (url, strategy) => {
       strategy,
       category: 'performance',
       fields: 'loadingExperience,lighthouseResult(audits)',
-      key: '<<YOUR API KEY HERE>>',
+      key: 'AIzaSyAKdaQC-WNh4L5tyMzO3MS2sJszph-ZuLI',
     };
     const qs = Object.keys(params)
       .map((key) => `${key}=${params[key]}`)
